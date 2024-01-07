@@ -22,6 +22,16 @@ a {
   border: none;
   cursor: pointer;
 }
+.btn_secondary {
+  border: 2px solid #fd6e0a;
+  background-color: transparent;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -55,4 +65,53 @@ nav > ul > li > a {
   font-weight: 800;
 }
 
+/* header css part */
+.main_header {
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color: #fff8f3;
+  background-size: 90px 87%;
+}
 /* banner css part */
+.banner {
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 700px;
+}
+.banner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hardy_pic {
+  max-width: 584px;
+}
+.hardy_pic img {
+  width: 100%;
+}
+.banner_gretting {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner_title {
+  font-size: 85px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.banner_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+  max-width: 585px;
+}
+.banner_button_wrapper > button {
+  margin: 0 15px;
+}
+
+/* About section css  */
+.about {
+  padding: 130px 0;
+}
